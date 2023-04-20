@@ -1,7 +1,9 @@
+import express, {Express} from 'express';
 import dotenv from 'dotenv';
-import express from 'express';
-dotenv.config();
-const app = express();
 
+const app: Express = express();
+
+dotenv.config();
 app.use(express.json());
+
 export default app;

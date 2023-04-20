@@ -11,3 +11,4 @@ const PATHS = {
   },
   ABOUT_ME: () => `api/about-me`,
 };
+export {PATHS};

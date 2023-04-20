@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.PATHS = void 0;
 const PATHS = {
     PORTFOLIO: {
         ALL: () => `api/portfolio`,
@@ -12,4 +14,5 @@ const PATHS = {
     },
     ABOUT_ME: () => `api/about-me`,
 };
+exports.PATHS = PATHS;
 //# sourceMappingURL=constants.js.map
