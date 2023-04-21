@@ -7,8 +7,9 @@
     "build": "npx tsc",
     "start": "node dist/server.js",
     "dev": "nodemon ./src/server.ts",
-    "dev2": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tsc": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev2": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\""
   },
   "repository": {
     "type": "git",
