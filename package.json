@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "api for olegkochiev.com website",
   "main": "index.ts",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
-    "build": "npx tsc",
+    "build": "node dist/server.js",
     "start": "node dist/server.js",
     "dev": "nodemon ./src/server.ts",
     "tsc": "tsc --watch",
