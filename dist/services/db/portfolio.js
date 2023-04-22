@@ -12,16 +12,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getPortfolio = void 0;
-const portfolio_1 = __importDefault(require("../services/db/portfolio"));
-const getPortfolio = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    try {
-        const portfolio = yield portfolio_1.default.getPortfolio();
-        return res.status(200).json(portfolio);
-    }
-    catch (error) {
-        return res.status(500).send(error);
-    }
+const Portfolio_1 = __importDefault(require("../../models/Portfolio"));
+const getPortfolio = () => __awaiter(void 0, void 0, void 0, function* () {
+    const portfolio = yield Portfolio_1.default.find({});
+    return portfolio;
 });
-exports.getPortfolio = getPortfolio;
+exports.default = { getPortfolio };
 //# sourceMappingURL=portfolio.js.map

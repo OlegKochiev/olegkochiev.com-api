@@ -6,12 +6,12 @@ const PATHS = {
     PORTFOLIO: {
         ALL: () => `/api/portfolio`,
         BY_TAG: (tag) => `/api/portfolio/tag/${tag}`,
-        BY_PROJECT: (name) => `/api/portfolio/project/${name}`,
+        BY_PROJECT: (name) => `/api/portfolio/${name}`,
     },
-    EDUCATION: {
-        ALL: () => `/api/education`,
-        BY_TAG: (tag) => `/api/education/tag/${tag}`,
-        BY_COURSE: (name) => `/api/education/course/${name}`,
+    COURSES: {
+        ALL: () => `/api/courses`,
+        BY_TAG: (tag) => `/api/courses/tag/${tag}`,
+        BY_COURSE: (name) => `/api/courses/${name}`,
     },
     ABOUT_ME: () => `/api/about-me`,
 };

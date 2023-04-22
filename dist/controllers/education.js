@@ -12,16 +12,16 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getPortfolio = void 0;
-const portfolio_1 = __importDefault(require("../services/db/portfolio"));
-const getPortfolio = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+exports.getEducation = void 0;
+const courses_1 = __importDefault(require("../services/db/courses"));
+const getEducation = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const portfolio = yield portfolio_1.default.getPortfolio();
-        return res.status(200).json(portfolio);
+        const education = yield courses_1.default.getEducation();
+        return res.status(200).json(education);
     }
     catch (error) {
         return res.status(500).send(error);
     }
 });
-exports.getPortfolio = getPortfolio;
-//# sourceMappingURL=portfolio.js.map
+exports.getEducation = getEducation;
+//# sourceMappingURL=education.js.map

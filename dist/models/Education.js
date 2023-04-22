@@ -4,10 +4,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const db_1 = __importDefault(require("../db"));
-const portfolioSchema = new db_1.default.Schema({
+const coursesSchema = new db_1.default.Schema({
     title: String,
-    url: String,
     description: String,
+    author: String,
+    duration: String,
     hashTags: [
         {
             type: db_1.default.Schema.Types.ObjectId,
@@ -15,6 +16,6 @@ const portfolioSchema = new db_1.default.Schema({
         },
     ],
 });
-const Portfolio = db_1.default.model('Portfolio', portfolioSchema);
-exports.default = Portfolio;
-//# sourceMappingURL=Portfolio.js.map
+const Courses = db_1.default.model('Courses', coursesSchema);
+exports.default = Courses;
+//# sourceMappingURL=Education.js.map

@@ -1,4 +1,4 @@
-import Portfolio from '../models/Portfolio';
+import Portfolio from '../../models/Portfolio';
 
 const getPortfolio = async () => {
   const portfolio = await Portfolio.find({});

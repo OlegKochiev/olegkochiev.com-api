@@ -1,0 +1,1 @@
+{"version":3,"file":"courses.js","sourceRoot":"","sources":["../../../src/services/db/courses.ts"],"names":[],"mappings":";;;;;;;;;;;;;;AAAA,mEAA2C;AAE3C,MAAM,UAAU,GAAG,GAAS,EAAE;IAC5B,MAAM,OAAO,GAAG,MAAM,iBAAO,CAAC,IAAI,CAAC,EAAE,CAAC,CAAC;IACvC,OAAO,OAAO,CAAC;AACjB,CAAC,CAAA,CAAC;AAEF,kBAAe,EAAC,UAAU,EAAC,CAAC"}

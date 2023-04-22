@@ -1,1 +1,1 @@
-{"version":3,"file":"courses.js","sourceRoot":"","sources":["../../src/routes/courses.ts"],"names":[],"mappings":""}
+{"version":3,"file":"courses.js","sourceRoot":"","sources":["../../src/routes/courses.ts"],"names":[],"mappings":";;AAAA,qCAA+B;AAC/B,oDAAkD;AAClD,4CAAmC;AAEnC,MAAM,MAAM,GAAG,IAAA,gBAAM,GAAE,CAAC;AAExB,MAAM,CAAC,GAAG,CAAC,iBAAK,CAAC,OAAO,CAAC,GAAG,EAAE,EAAE,oBAAU,CAAC,CAAC;AAE5C,kBAAe,MAAM,CAAC"}
