@@ -5,7 +5,7 @@ const router = Router();
 
 router.get(PATHS.HOME(), (req, res) => {
   try {
-    return res.status(200).json(process.env);
+    return res.status(200).json('home - /');
   } catch (error) {
     return res.status(500).send(error);
   }
