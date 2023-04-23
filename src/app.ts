@@ -10,6 +10,6 @@ dotenv.config();
 app.use(express.json());
 app.use(homeRoute);
 app.use(portfolioRouter);
-// app.use(coursesRouter);
+app.use(coursesRouter);
 
 export default app;
