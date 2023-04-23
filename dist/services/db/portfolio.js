@@ -17,5 +17,9 @@ const getPortfolio = () => __awaiter(void 0, void 0, void 0, function* () {
     const portfolio = yield Portfolio_1.default.find({});
     return portfolio;
 });
+// const getPortfolio = async () => {
+//   const portfolio = await Portfolio.find({});
+//   return portfolio;
+// };
 exports.default = { getPortfolio };
 //# sourceMappingURL=portfolio.js.map
